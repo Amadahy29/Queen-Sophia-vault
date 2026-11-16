@@ -6,7 +6,7 @@ window.SITE_OVERRIDES = {
   // 1) LIVE comments & likes for everyone: paste your Firebase web config here (see SETUP.md).
   //    Leave as null = demo mode (saved only on each visitor's own device).
   //    Example: firebase: { apiKey: "...", authDomain: "...", projectId: "...", appId: "..." },
-  firebase: null,
+  firebase: { apiKey: "…", authDomain: "…", projectId: "…", appId: "…" },
 
   // 2) CHECKOUT: one hosted payment link per product id (ids are the keys in "products" below).
   //    "default" is used for any product without its own link.
